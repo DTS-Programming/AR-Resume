@@ -572,7 +572,7 @@ Transform:
   m_GameObject: {fileID: 388525029}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 15, y: 15, z: 15}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 22732924}
@@ -608,9 +608,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ArPrefabs:
-  - {fileID: 416163926950973792, guid: 7d4664b3148f92a4abd233ce7bab1a55, type: 3}
-  - {fileID: 5706605276448166569, guid: ff04cb37a25baf3409ac8b2c1692ea03, type: 3}
-  - {fileID: 3542009036974855271, guid: 4c112cabc41d0b0498ff024548d63dbf, type: 3}
+  - {fileID: 8403447115680077068, guid: 4585897f1a09b51458d75ef27045bd03, type: 3}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
