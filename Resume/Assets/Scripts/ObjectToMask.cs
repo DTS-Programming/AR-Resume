@@ -1,12 +1,17 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class ObjectToMask : MonoBehaviour
 {
+    private int queueValue = 3002;
+
     // Start is called before the first frame update
     void Start()
     {
-        GetComponent<MeshRenderer>().material.renderQueue = 3002;
+        foreach (var material in GetComponentsInChildren<MeshRenderer>())
+        {
+            GetComponent<MeshRenderer>().material.renderQueue = queueValue;
+            queueValue++;
+        }
+        
     }
 }
