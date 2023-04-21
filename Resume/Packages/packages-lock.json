@@ -12,34 +12,52 @@
       },
       "hash": "76f76584a113b240a4ec11f324b17302bde9a53a"
     },
+    "com.de-panther.webxr": {
+      "version": "0.16.0-preview",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.xr.management": "3.2.13"
+      },
+      "url": "https://package.openupm.com"
+    },
+    "com.de-panther.webxr-interactions": {
+      "version": "0.16.3-preview",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.de-panther.webxr": "0.16.0-preview"
+      },
+      "url": "https://package.openupm.com"
+    },
     "com.readyplayerme.avatarloader": {
-      "version": "https://github.com/readyplayerme/rpm-unity-sdk-avatar-loader.git#v1.0.0",
+      "version": "https://github.com/readyplayerme/rpm-unity-sdk-avatar-loader.git#v1.2.0",
       "depth": 0,
       "source": "git",
       "dependencies": {
         "com.unity.ugui": "1.0.0",
         "com.unity.nuget.newtonsoft-json": "3.0.2"
       },
-      "hash": "64b065ec8f8f9c0c3fca78f11342172d985be434"
+      "hash": "da82799b99620eafcc3d4a3a117db2dac99d08c0"
     },
     "com.readyplayerme.core": {
-      "version": "https://github.com/readyplayerme/rpm-unity-sdk-core.git#v1.0.0",
+      "version": "https://github.com/readyplayerme/rpm-unity-sdk-core.git#v1.2.0",
       "depth": 0,
       "source": "git",
       "dependencies": {
         "com.unity.nuget.newtonsoft-json": "3.0.2"
       },
-      "hash": "4bccdb4898db9ffa2037bd34b6588f4222f56069"
+      "hash": "2d33400c695e24e1d5e1d980bf155601a6e0167d"
     },
     "com.readyplayerme.webview": {
-      "version": "https://github.com/readyplayerme/rpm-unity-sdk-webview.git#v1.0.0",
+      "version": "https://github.com/readyplayerme/rpm-unity-sdk-webview.git#v1.1.0",
       "depth": 0,
       "source": "git",
       "dependencies": {
         "com.unity.ugui": "1.0.0",
         "com.unity.nuget.newtonsoft-json": "3.0.2"
       },
-      "hash": "3aeabe72aaa7de09f8525cda8d47e310a2b450fe"
+      "hash": "12e725a2a7af509bbe0280eae746bf80ef6f27d1"
     },
     "com.unity.burst": {
       "version": "1.6.6",
@@ -55,6 +73,16 @@
       "depth": 0,
       "source": "registry",
       "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.connect.share": {
+      "version": "4.2.3",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.settings-manager": "1.0.2"
+      },
       "url": "https://packages.unity.com"
     },
     "com.unity.editorcoroutines": {
@@ -81,7 +109,7 @@
         "com.unity.xr.arcore": "4.2.7",
         "com.unity.xr.magicleap": "6.4.1",
         "com.unity.xr.arkit-face-tracking": "4.2.7",
-        "com.unity.xr.openxr": "1.6.0"
+        "com.unity.xr.openxr": "1.7.0"
       }
     },
     "com.unity.feature.development": {
@@ -99,7 +127,7 @@
       }
     },
     "com.unity.ide.rider": {
-      "version": "3.0.18",
+      "version": "3.0.20",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -108,7 +136,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.visualstudio": {
-      "version": "2.0.17",
+      "version": "2.0.18",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -124,7 +152,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.inputsystem": {
-      "version": "1.5.0",
+      "version": "1.5.1",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -150,7 +178,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.nuget.newtonsoft-json": {
-      "version": "3.0.2",
+      "version": "3.1.0",
       "depth": 1,
       "source": "registry",
       "dependencies": {},
@@ -172,7 +200,7 @@
     },
     "com.unity.subsystemregistration": {
       "version": "1.1.0",
-      "depth": 1,
+      "depth": 2,
       "source": "registry",
       "dependencies": {
         "com.unity.modules.subsystems": "1.0.0"
@@ -329,20 +357,19 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.management": {
-      "version": "4.2.1",
+      "version": "4.3.3",
       "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.modules.subsystems": "1.0.0",
         "com.unity.modules.vr": "1.0.0",
         "com.unity.modules.xr": "1.0.0",
-        "com.unity.xr.legacyinputhelpers": "2.1.7",
-        "com.unity.subsystemregistration": "1.0.6"
+        "com.unity.xr.legacyinputhelpers": "2.1.7"
       },
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.openxr": {
-      "version": "1.6.0",
+      "version": "1.7.0",
       "depth": 0,
       "source": "registry",
       "dependencies": {

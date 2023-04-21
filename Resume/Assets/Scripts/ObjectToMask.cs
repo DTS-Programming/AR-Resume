@@ -12,6 +12,5 @@ public class ObjectToMask : MonoBehaviour
             GetComponent<MeshRenderer>().material.renderQueue = queueValue;
             queueValue++;
         }
-        
     }
 }
